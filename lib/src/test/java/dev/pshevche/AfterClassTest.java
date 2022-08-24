@@ -12,14 +12,6 @@ public class AfterClassTest {
     public void setupClass() {
     }
 
-    @BeforeMethod
-    public void setupMethod() {
-    }
-
-    @AfterMethod
-    public void cleanupMethod() {
-    }
-
     @AfterClass
     public void cleanupClass() {
     }
@@ -28,7 +20,4 @@ public class AfterClassTest {
     public void test1() {
     }
 
-    @Test
-    public void test2() {
-    }
 }
